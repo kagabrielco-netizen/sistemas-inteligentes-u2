@@ -1,4 +1,4 @@
-from src.si_image_processing.pipelines.image_processing.nodes import process_image
+from si_image_processing.pipelines.image_processing.nodes import process_image
 
 
 def test_process_image():
@@ -9,3 +9,4 @@ def test_process_image():
     )
 
     assert result is not None
+    
