@@ -1,5 +1,6 @@
-import pytest
 from pathlib import Path
+
+import pytest
 from PIL import Image
 
 from si_image_processing.pipelines.image_processing.nodes import process_image
