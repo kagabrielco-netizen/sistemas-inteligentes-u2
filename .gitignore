@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.kedro/
+data/03_primary/marte_processed.jpg
+data/03_primary/test_output.jpg
+data/03_primary/processed_image_path.txt
