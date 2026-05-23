@@ -2,7 +2,6 @@ import os
 
 from PIL import Image, ImageDraw, ImageFilter
 
-
 def process_image(input_path: str, output_path: str):
     # Crear el directorio de salida si no existe
     output_dir = os.path.dirname(output_path)
