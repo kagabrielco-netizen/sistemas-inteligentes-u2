@@ -45,7 +45,7 @@ def process_image(
         raise FileNotFoundError(f"El archivo {input_path} no existe.")
 
     # 2. Validar que el ángulo es un número
-    if not isinstance(rotation_angle, (int, float)):
+    if not isinstance(rotation_angle, int | float):
         logger.error(f"Ángulo inválido: {rotation_angle}")
         raise ValueError("El ángulo de rotación debe ser un número.")
 
