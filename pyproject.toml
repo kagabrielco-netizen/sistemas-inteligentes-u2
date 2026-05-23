@@ -21,7 +21,8 @@ pytest-cov = "^5.0.0"
 testpaths = ["tests"]
 python_files = ["test_*.py"]
 python_functions = ["test_*"]
-addopts = "-v --cov=src --cov-report=term-missing"
+pythonpath = ["src"]
+addopts = "-v --cov=si_image_processing --cov-report=term-missing"
 
 [tool.ruff]
 line-length = 100
