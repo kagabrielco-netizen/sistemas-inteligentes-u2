@@ -1,3 +1,11 @@
+marte_image:
+  type: pillow.ImageDataset
+  filepath: data/01_raw/marte.jpg
+
+marte_processed_image:
+  type: pillow.ImageDataset
+  filepath: data/03_primary/marte_processed.jpg
+
 processed_image:
-  type: kedro_datasets.text.TextDataset
-  filepath: data/03_primary/processed_image_path.txt
+  type: pickle.PickleDataset
+  filepath: data/03_primary/processed_image.pkl
